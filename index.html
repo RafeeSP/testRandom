@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>  
+   <body>
+   <h1>Click to see who you are...<h1>
+     <button onclick="ranclick()"> click</button>
+     <p id="pr"></p>
+   
+     
+     
+     <script>
+     function ranclick(){
+      var arr=["dappa","thakali","korangu","eruma","pschyo","double dappa","podalanga","koomuta","paithiyam","mental"];
+       var ran=Math.floor(Math.random() * 10);
+   
+     const element = document.getElementById("pr");
+     element.innerHTML = arr[ran];
+    
+     }
+     </script>
+   </body> 
+</html> 
